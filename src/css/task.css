@@ -1,0 +1,67 @@
+.btn {
+  margin: 103px 40px 40px 140px;
+  background: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #770410;
+  border-color: #770410;
+}
+
+.btn:after {
+  background: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, .5);
+  outline-width: 0px;
+}
+
+.note {
+  width: 250px;
+  height: 91px;
+  border: 1px double #c7c7c7;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+}
+
+h3 {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #ebebeb;
+  padding: .5rem .75rem;
+  padding-top: 0.5rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  margin: 0rem;
+}
+
+p {
+  padding: .5rem .75rem;
+  padding-top: 0.5rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  margin: 0rem;
+}
+
+.arrow {
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  margin-left: 122px;
+  margin-top: -3px;
+}
+
+.arrow-bottom {
+  transform: rotate(135deg);
+  position: absolute;
+}
